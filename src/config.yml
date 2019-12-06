@@ -1,0 +1,20 @@
+!!com.Porama6400.IPCache.server.Config
+
+databaseURL: jdbc:mysql://localhost:3306/[database]
+databaseUser: '[user]'
+databasePass: '[pass]'
+databaseTable: '[table]'
+databasePoolSize: 4
+
+# This will define where our API will live (HTTP Server)
+apiLocation: 815a3649u2c66786264u8113 #localhost:port/location
+apiPort: 5888
+
+# How often clean up process will be call (in minutes)
+cleanupDelay: 180 
+# How long a database entry going to live (in days)
+databaseCacheTime: 14
+enableDatabaseUpdate: true
+
+#Proxycheck.io API Keys (leave it alone <3 )
+apiKeys: [815a36-49u2c6-678626-4u8113]
